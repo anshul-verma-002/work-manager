@@ -8,8 +8,6 @@ async function test(){
 }
 
 const page = async () => {
-  await test();
-  throw new Error("This is a manual error thrown");
   return (
     <div>This is a About Page route </div>
   )
